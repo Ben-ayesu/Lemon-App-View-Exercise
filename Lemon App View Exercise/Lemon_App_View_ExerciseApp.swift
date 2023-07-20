@@ -11,7 +11,7 @@ import SwiftUI
 struct Lemon_App_View_ExerciseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
