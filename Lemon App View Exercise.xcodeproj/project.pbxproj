@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B15ADEBF2A68E9BD004635D6 /* Lemon_App_View_ExerciseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15ADEBE2A68E9BD004635D6 /* Lemon_App_View_ExerciseApp.swift */; };
+		B15ADEC12A68E9BD004635D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15ADEC02A68E9BD004635D6 /* ContentView.swift */; };
+		B15ADEC32A68E9BD004635D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15ADEC22A68E9BD004635D6 /* Assets.xcassets */; };
+		B15ADEC62A68E9BD004635D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15ADEC52A68E9BD004635D6 /* Preview Assets.xcassets */; };
+		B15ADED02A68E9BE004635D6 /* Lemon_App_View_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15ADECF2A68E9BE004635D6 /* Lemon_App_View_ExerciseTests.swift */; };
+		B15ADEDA2A68E9BE004635D6 /* Lemon_App_View_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15ADED92A68E9BE004635D6 /* Lemon_App_View_ExerciseUITests.swift */; };
+		B15ADEDC2A68E9BE004635D6 /* Lemon_App_View_ExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15ADEDB2A68E9BE004635D6 /* Lemon_App_View_ExerciseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B15ADECC2A68E9BE004635D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B15ADEB32A68E9BD004635D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B15ADEBA2A68E9BD004635D6;
+			remoteInfo = "Lemon App View Exercise";
+		};
+		B15ADED62A68E9BE004635D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B15ADEB32A68E9BD004635D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B15ADEBA2A68E9BD004635D6;
+			remoteInfo = "Lemon App View Exercise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B15ADEBB2A68E9BD004635D6 /* Lemon App View Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lemon App View Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15ADEBE2A68E9BD004635D6 /* Lemon_App_View_ExerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemon_App_View_ExerciseApp.swift; sourceTree = "<group>"; };
+		B15ADEC02A68E9BD004635D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B15ADEC22A68E9BD004635D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B15ADEC52A68E9BD004635D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B15ADECB2A68E9BE004635D6 /* Lemon App View ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lemon App View ExerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15ADECF2A68E9BE004635D6 /* Lemon_App_View_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemon_App_View_ExerciseTests.swift; sourceTree = "<group>"; };
+		B15ADED52A68E9BE004635D6 /* Lemon App View ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lemon App View ExerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15ADED92A68E9BE004635D6 /* Lemon_App_View_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemon_App_View_ExerciseUITests.swift; sourceTree = "<group>"; };
+		B15ADEDB2A68E9BE004635D6 /* Lemon_App_View_ExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemon_App_View_ExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B15ADEB82A68E9BD004635D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15ADEC82A68E9BE004635D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15ADED22A68E9BE004635D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B15ADEB22A68E9BD004635D6 = {
+			isa = PBXGroup;
+			children = (
+				B15ADEBD2A68E9BD004635D6 /* Lemon App View Exercise */,
+				B15ADECE2A68E9BE004635D6 /* Lemon App View ExerciseTests */,
+				B15ADED82A68E9BE004635D6 /* Lemon App View ExerciseUITests */,
+				B15ADEBC2A68E9BD004635D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B15ADEBC2A68E9BD004635D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B15ADEBB2A68E9BD004635D6 /* Lemon App View Exercise.app */,
+				B15ADECB2A68E9BE004635D6 /* Lemon App View ExerciseTests.xctest */,
+				B15ADED52A68E9BE004635D6 /* Lemon App View ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B15ADEBD2A68E9BD004635D6 /* Lemon App View Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				B15ADEBE2A68E9BD004635D6 /* Lemon_App_View_ExerciseApp.swift */,
+				B15ADEC02A68E9BD004635D6 /* ContentView.swift */,
+				B15ADEC22A68E9BD004635D6 /* Assets.xcassets */,
+				B15ADEC42A68E9BD004635D6 /* Preview Content */,
+			);
+			path = "Lemon App View Exercise";
+			sourceTree = "<group>";
+		};
+		B15ADEC42A68E9BD004635D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B15ADEC52A68E9BD004635D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B15ADECE2A68E9BE004635D6 /* Lemon App View ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				B15ADECF2A68E9BE004635D6 /* Lemon_App_View_ExerciseTests.swift */,
+			);
+			path = "Lemon App View ExerciseTests";
+			sourceTree = "<group>";
+		};
+		B15ADED82A68E9BE004635D6 /* Lemon App View ExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B15ADED92A68E9BE004635D6 /* Lemon_App_View_ExerciseUITests.swift */,
+				B15ADEDB2A68E9BE004635D6 /* Lemon_App_View_ExerciseUITestsLaunchTests.swift */,
+			);
+			path = "Lemon App View ExerciseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B15ADEBA2A68E9BD004635D6 /* Lemon App View Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15ADEDF2A68E9BE004635D6 /* Build configuration list for PBXNativeTarget "Lemon App View Exercise" */;
+			buildPhases = (
+				B15ADEB72A68E9BD004635D6 /* Sources */,
+				B15ADEB82A68E9BD004635D6 /* Frameworks */,
+				B15ADEB92A68E9BD004635D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lemon App View Exercise";
+			productName = "Lemon App View Exercise";
+			productReference = B15ADEBB2A68E9BD004635D6 /* Lemon App View Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B15ADECA2A68E9BE004635D6 /* Lemon App View ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15ADEE22A68E9BE004635D6 /* Build configuration list for PBXNativeTarget "Lemon App View ExerciseTests" */;
+			buildPhases = (
+				B15ADEC72A68E9BE004635D6 /* Sources */,
+				B15ADEC82A68E9BE004635D6 /* Frameworks */,
+				B15ADEC92A68E9BE004635D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B15ADECD2A68E9BE004635D6 /* PBXTargetDependency */,
+			);
+			name = "Lemon App View ExerciseTests";
+			productName = "Lemon App View ExerciseTests";
+			productReference = B15ADECB2A68E9BE004635D6 /* Lemon App View ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B15ADED42A68E9BE004635D6 /* Lemon App View ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15ADEE52A68E9BE004635D6 /* Build configuration list for PBXNativeTarget "Lemon App View ExerciseUITests" */;
+			buildPhases = (
+				B15ADED12A68E9BE004635D6 /* Sources */,
+				B15ADED22A68E9BE004635D6 /* Frameworks */,
+				B15ADED32A68E9BE004635D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B15ADED72A68E9BE004635D6 /* PBXTargetDependency */,
+			);
+			name = "Lemon App View ExerciseUITests";
+			productName = "Lemon App View ExerciseUITests";
+			productReference = B15ADED52A68E9BE004635D6 /* Lemon App View ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B15ADEB32A68E9BD004635D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B15ADEBA2A68E9BD004635D6 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					B15ADECA2A68E9BE004635D6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B15ADEBA2A68E9BD004635D6;
+					};
+					B15ADED42A68E9BE004635D6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B15ADEBA2A68E9BD004635D6;
+					};
+				};
+			};
+			buildConfigurationList = B15ADEB62A68E9BD004635D6 /* Build configuration list for PBXProject "Lemon App View Exercise" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B15ADEB22A68E9BD004635D6;
+			productRefGroup = B15ADEBC2A68E9BD004635D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B15ADEBA2A68E9BD004635D6 /* Lemon App View Exercise */,
+				B15ADECA2A68E9BE004635D6 /* Lemon App View ExerciseTests */,
+				B15ADED42A68E9BE004635D6 /* Lemon App View ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B15ADEB92A68E9BD004635D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15ADEC62A68E9BD004635D6 /* Preview Assets.xcassets in Resources */,
+				B15ADEC32A68E9BD004635D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15ADEC92A68E9BE004635D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15ADED32A68E9BE004635D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B15ADEB72A68E9BD004635D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15ADEC12A68E9BD004635D6 /* ContentView.swift in Sources */,
+				B15ADEBF2A68E9BD004635D6 /* Lemon_App_View_ExerciseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15ADEC72A68E9BE004635D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15ADED02A68E9BE004635D6 /* Lemon_App_View_ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15ADED12A68E9BE004635D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15ADEDA2A68E9BE004635D6 /* Lemon_App_View_ExerciseUITests.swift in Sources */,
+				B15ADEDC2A68E9BE004635D6 /* Lemon_App_View_ExerciseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B15ADECD2A68E9BE004635D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B15ADEBA2A68E9BD004635D6 /* Lemon App View Exercise */;
+			targetProxy = B15ADECC2A68E9BE004635D6 /* PBXContainerItemProxy */;
+		};
+		B15ADED72A68E9BE004635D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B15ADEBA2A68E9BD004635D6 /* Lemon App View Exercise */;
+			targetProxy = B15ADED62A68E9BE004635D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B15ADEDD2A68E9BE004635D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B15ADEDE2A68E9BE004635D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B15ADEE02A68E9BE004635D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lemon App View Exercise/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BenjaminAyesu.Lemon-App-View-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B15ADEE12A68E9BE004635D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lemon App View Exercise/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BenjaminAyesu.Lemon-App-View-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B15ADEE32A68E9BE004635D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BenjaminAyesu.Lemon-App-View-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lemon App View Exercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lemon App View Exercise";
+			};
+			name = Debug;
+		};
+		B15ADEE42A68E9BE004635D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BenjaminAyesu.Lemon-App-View-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lemon App View Exercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lemon App View Exercise";
+			};
+			name = Release;
+		};
+		B15ADEE62A68E9BE004635D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BenjaminAyesu.Lemon-App-View-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lemon App View Exercise";
+			};
+			name = Debug;
+		};
+		B15ADEE72A68E9BE004635D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BenjaminAyesu.Lemon-App-View-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lemon App View Exercise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B15ADEB62A68E9BD004635D6 /* Build configuration list for PBXProject "Lemon App View Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15ADEDD2A68E9BE004635D6 /* Debug */,
+				B15ADEDE2A68E9BE004635D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15ADEDF2A68E9BE004635D6 /* Build configuration list for PBXNativeTarget "Lemon App View Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15ADEE02A68E9BE004635D6 /* Debug */,
+				B15ADEE12A68E9BE004635D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15ADEE22A68E9BE004635D6 /* Build configuration list for PBXNativeTarget "Lemon App View ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15ADEE32A68E9BE004635D6 /* Debug */,
+				B15ADEE42A68E9BE004635D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15ADEE52A68E9BE004635D6 /* Build configuration list for PBXNativeTarget "Lemon App View ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15ADEE62A68E9BE004635D6 /* Debug */,
+				B15ADEE72A68E9BE004635D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B15ADEB32A68E9BD004635D6 /* Project object */;
+}
